@@ -1,0 +1,103 @@
+a{
+   color: green;
+}
+a:hover {
+   color: red;
+}
+
+div{
+   width: 100vw;
+   margin-bottom: 10px;
+}
+
+.header a:nth-child(2n){
+   border-right: #ff0000 solid 1px;
+   border-left: #ff0000 solid 1px;
+   padding: 3px;
+}
+
+.main a::before {
+	content: "|";
+	color: #ff0000;
+   padding-right: 3px;
+}
+
+a.one:before {
+	content: "";
+	
+}
+
+.footer a::after {
+	content: "|";
+	color: #ff0000;
+   padding: 5px;
+}
+
+a.two::after {
+	content: "";
+	
+}
+
+.but1 button {
+   background-color: rgb(255, 255, 255);
+   border-top-color: rgb(255, 255, 255) ;
+   border-left-color:rgb(255, 0, 0);
+   border-right: #ff0000;
+   border-bottom:#ff0000;
+   padding-left: 6PX;
+}
+ .but1 button:first-of-type{
+   background-color: rgb(255, 255, 255);
+   border-top-color: rgb(255, 255, 255) ;
+   border-left: none;
+   border-right: #ff0000;
+   border-bottom:#ff0000;
+   padding-left: 0;
+}
+ 
+
+.but2 button {
+   background-color: azure;
+   border-top-color: rgb(255, 255, 255) ;
+   border-left-color:rgb(255, 255, 255);
+   border-right-color: #ff0000;
+   border-bottom:#ffffff;
+   padding-left: 0;
+
+}
+
+.but2 button:last-of-type{
+   background-color: rgb(255, 255, 255);
+   border-top-color: rgb(255, 255, 255) ;
+   border-left: none;
+   border-right: none;
+   border-bottom:#ff0000
+}
+
+.but2 button:first-of-type{
+   border-left: none;
+}
+
+button{
+   padding-left: 0;
+}
+
+td{
+   border-right: solid 1px #ff0000;
+   padding-right: 3px;
+}
+
+
+td:hover {
+   color: red;
+   
+}
+td:first-of-type{
+padding-left:  0px;
+padding-right: 3px;
+}
+ 
+td:last-of-type{
+   border-right: none;
+   }
+   
