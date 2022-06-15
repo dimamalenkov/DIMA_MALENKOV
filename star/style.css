@@ -1,0 +1,24 @@
+div {
+   background: url(img/star0.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 75px; /* Ширина рисунка */
+    height: 79px; /*  Высота рисунка */
+    background-repeat: repeat;
+    display: inline-block;
+    transform: rotate(180deg);
+
+}
+div:hover~div {
+    background: url(img/star1.png); /* Путь к файлу с заменяемым рисунком  */
+    background-repeat: repeat;
+    transform: rotate(90deg);
+}
+body{
+    transform: rotate(180deg);
+    display: inline-block;
+}
+div:hover {
+    background: url(img/star1.png); 
+    background-repeat: repeat;
+    transform: rotate(90deg)}
+    
