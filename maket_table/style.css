@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: rgb(0, 195, 255);
+    font-size: 35px;
+    text-align: center;
+    line-height: 45px;
+    color: blue;
+    height: 50px;
+    overflow: hidden
+}
+
+.main {
+    display: inline-block;
+    background-color: rgb(215, 218, 76);
+    position: relative;
+    padding: 5px;
+   padding-bottom: 37%;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background: url(./img/football.png) repeat-y right;
+}
+img {
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.play{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+}
+a{
+    color: blue;
+}

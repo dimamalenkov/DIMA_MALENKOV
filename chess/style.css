@@ -1,0 +1,97 @@
+
+header {
+    width: 100vw;
+}
+
+.first {
+   background-image: url(img/first.png);
+   height: 100px;
+   width: 100px;
+   background-repeat: no-repeat;
+   display: inline-block;
+}
+
+.top {
+    background-image: url(img/topline.png);
+    width: 400px ;
+    height: 100px;
+    background-repeat: repeat-x;
+    display: inline-block;
+ }
+
+ .second {
+    background-image: url(img/second.png);
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+ }
+
+ main {
+    display: inline-block;
+ }
+
+ .leftline {
+    background-image: url(img/leftline.png);
+    height: 100px;
+    width: 100px;
+    background-repeat: repeat-y;
+    display: inline-block;
+    margin-top: -10px;
+ }
+
+ .text {
+    width: 480px;
+    margin-top: -150px;
+    margin-left: -40px;
+    padding: 0px;
+    background-repeat: repeat-y;
+    display: inline-block;
+ }
+
+ .rightline {
+    background-image: url(img/rightline.png);
+    position: absolute;
+    margin-left: 17px;
+    height: 100px;
+    width: 100px;
+    background-repeat: repeat-y;
+    display: inline-block;
+    margin-top: -11px;
+}
+
+footer {
+    width: 100vw;
+    
+}
+    .third {
+        background-image: url(img/third.png);
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: -5px;
+     }
+     
+     .bottowline {
+        background-image: url(img/topline.png);
+        width: 500px ;
+        height: 100px;
+        background-repeat: repeat-x;
+        display: inline-block;
+        
+        margin-top: 51px;
+      }
+     
+      .forth {
+         background-image: url(img/forth.png);
+         height: 100px;
+         width: 100px;
+         background-repeat: no-repeat;
+         display: inline-block;
+         position: absolute;
+         margin-top: -11px;
+         margin-left: 1px;
+      }
+ 

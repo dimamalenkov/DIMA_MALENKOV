@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.header {
+    background: 
+    url(img/1.png) left top no-repeat, url(img/3.png) right top no-repeat,
+    url(img/5.png) left bottom no-repeat, url(img/7.png) right bottom no-repeat,
+    url(img/2.png) top repeat-x, url(img/4.png) left repeat-y,
+    url(img/6.png) bottom repeat-x , url(img/8.png) right repeat-y;
+}
+.text {
+    padding: 55px;
+    margin: 0;
+}
